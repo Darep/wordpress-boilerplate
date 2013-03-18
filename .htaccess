@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    # BEGIN WordPress
+    RewriteRule ^$ wordpress/index.php [L]
+
+    # Skip real files and directories
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    # Otherwise send it to WordPress
+    RewriteRule .* wordpress/index.php [L]
+    # END WordPress
+</IfModule>
