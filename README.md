@@ -47,7 +47,7 @@ Antti-Jussi Kovalainen. [Twitter](http://twitter.com/@darep), [GitHub](http://gi
 
 ## Contributors
 
-- Jasper van Wanrooy ([jappievw](https://github.com/jappievw)) : Readme refactoring, Upgrade instructions, gitignore fixes
+- Jasper van Wanrooy ([jappievw](https://github.com/jappievw)) : Readme refactoring, Upgrade instructions, gitignore fixes, WP 3.7 security config info
 
 ## Contributing
 
