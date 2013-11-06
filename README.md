@@ -19,6 +19,28 @@ Add your new origin repository to your working copy:
 
     git remote add origin <url_here>
 
+## Upgrading Wordpress
+
+After installing this boilerplate, keeping Wordpress up-to-date via git is
+pretty easy.
+
+Go to the submodule directory:
+
+    cd wordpress
+
+Fetch the tags from git:
+
+    git fetch --tags
+
+Checkout the version you want to upgrade to (e.g. `git checkout 3.7.1`):
+
+    git checkout <tag-name>
+
+Commit your Wordpress upgrade:
+
+    cd ..
+    git commit -m "Updating wordpress to <tag-name>"
+
 ## License
 
 Licensed under the MIT license.
