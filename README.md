@@ -34,7 +34,7 @@ Fetch the tags from git:
 
 Checkout the version you want to upgrade to (e.g. `git checkout 3.7.1`):
 
-    git checkout <tag-name>
+    git checkout <tag>
 
 Commit your Wordpress upgrade:
 
@@ -49,6 +49,17 @@ Antti-Jussi Kovalainen. [Twitter](http://twitter.com/@darep), [GitHub](http://gi
 
 - Jasper van Wanrooy ([jappievw](https://github.com/jappievw)) : Readme refactoring, Upgrade instructions
 
+## Contributing
+
+Contributions are most welcome! And well-tested and documented contributions are
+more welcome than others ;)
+
+1. [Fork the repository][fork]
+2. [Create a branch][branch] (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. [Create a pull request][pr]
+
 ## License
 
 Licensed under the MIT license.
@@ -58,3 +69,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+[fork]: http://help.github.com/fork-a-repo/
+[branch]: http://learn.github.com/p/branching.html
+[pr]: http://help.github.com/send-pull-requests/
