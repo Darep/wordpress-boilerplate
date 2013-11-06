@@ -41,6 +41,14 @@ Commit your Wordpress upgrade:
     cd ..
     git commit -m "Updating wordpress to <tag-name>"
 
+## Author
+
+Antti-Jussi Kovalainen. [Twitter](http://twitter.com/@darep), [GitHub](http://github.com/Darep), [homepage](http://ajk.fi/)
+
+## Contributors
+
+- Jasper van Wanrooy ([jappievw](https://github.com/jappievw)) : Readme refactoring, Upgrade instructions
+
 ## License
 
 Licensed under the MIT license.
