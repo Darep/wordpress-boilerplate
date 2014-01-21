@@ -6,7 +6,8 @@ module.exports = function(grunt) {
         wordpress: {
             options: {
                 keepalive: true,
-                open: true
+                open: true,
+                router: 'router.php'
             }
         }
     }
