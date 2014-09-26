@@ -1,0 +1,11 @@
+{
+  "name": "wordpress-boilerplate",
+  "version": "0.1.0",
+  "description": "WordPress Boilerplate is a simple starting point which includes WordPress as a submodule, the required configurations and a dummy plugin & theme structure.",
+  "main": "Gruntfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-php": "~0.3.2"
+  }
+}
